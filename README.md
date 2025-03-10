@@ -15,14 +15,16 @@ Before running this project, make sure you have:
 ### 1️⃣ Clone the Repository
 Open your terminal and run:
 ```sh
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/RishabJha134/containerize-mern-app.git
 cd your-repo
 ```
+
 ### 2️⃣ Run the Application
 Start all services (frontend, backend, and MongoDB) using:
 ```sh
 docker-compose up --build
 ```
+
 ✅ **This will:**
 - 🚀 Build the **frontend** and **backend**
 - 🐳 Pull the latest **MongoDB** image
@@ -37,4 +39,5 @@ To stop the running containers, press **CTRL + C** or run:
 ```sh
 docker-compose down
 ```
+
 
